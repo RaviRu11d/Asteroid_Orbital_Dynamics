@@ -1,0 +1,13 @@
+# Ignore data folder
+data/
+.venv/
+
+# Ignore ML artifacts
+*.pkl
+*.csv
+*.txt
+
+# Optional (common ML stuff)
+*.h5
+*.pt
+*.npy
