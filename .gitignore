@@ -1,6 +1,7 @@
 # Ignore data folder
 data/
 .venv/
+plots/
 
 # Ignore ML artifacts
 *.pkl
