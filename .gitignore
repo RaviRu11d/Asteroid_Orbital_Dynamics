@@ -2,6 +2,8 @@
 data/
 .venv/
 plots/
+tuner_logs/
+tuner_logs_1/
 
 # Ignore ML artifacts
 *.pkl
