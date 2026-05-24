@@ -85,6 +85,7 @@ After filtering (RMS threshold + orbital bounds + LCE > 0):
 
 ## Pipeline
 
+```bash
 Raw AstDyS-2 Files
 ↓
 01_data_fetching
@@ -117,6 +118,7 @@ Primordial vs escaped member analysis
 ↓
 09 — 99-class End-to-End Classification
 DL + Keras Tuner (full belt, single model)
+```
 
 ---
 
