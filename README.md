@@ -53,7 +53,7 @@ After filtering (RMS threshold + orbital bounds + LCE > 0):
 ---
 
 ## Project Structure
-
+```bash
 ├── data/
 │   ├── lvl1/                              # Raw input files
 │   │   ├── proper_elements.syn
@@ -80,7 +80,7 @@ After filtering (RMS threshold + orbital bounds + LCE > 0):
 ├── 07_3_multiclass_dl_bayesian.ipynb      # Stage 5 — Multiclass DL + Keras Tuner
 ├── 08_background_population_analysis.ipynb # Stage 6 — Background analysis
 └── 09_multiclass_99_dl_keras_tuner.ipynb  # Stage 5 — 99-class end-to-end DL
-
+```
 ---
 
 ## Pipeline
