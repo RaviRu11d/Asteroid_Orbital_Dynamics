@@ -199,24 +199,6 @@ These frequencies diffuse chaotically over Gyr timescales, making them unreliabl
 
 ---
 
-## Recommended Production Pipeline
-
-New asteroid with proper elements (a_p, e_p, sin_i_p, g, s)
-↓
-RF Binary Classifier (06_1)
-↓
-┌──────────┴──────────┐
-Background      Family member
-│                     ↓
-│        RF Multiclass Classifier (07_1)
-│        (+ rms_a, rms_e, rms_sini, LCE)
-│                     ↓
-│           Family assignment
-│           (1 of 98 families)
-└─────────────────────┘
-
----
-
 ## Requirements
 
 Python >= 3.10
