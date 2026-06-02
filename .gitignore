@@ -1,6 +1,7 @@
 # Ignore data folder
 data/
 .venv/
+.ipynb_checkpoints/
 plots/
 tuner_logs/
 tuner_logs_1/
